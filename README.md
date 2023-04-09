@@ -50,7 +50,7 @@ To use the text files for training, you would need to preprocess the data into a
 
 If the human is a writer and you have access to his/her writings, you may also use my simple little [Dialogos](https://github.com/Decentricity/Dialogos) script to pull out dialogue from essays.
 
-If the human is bilingual (English+other language), it might make sense to train each language separately so code switching could be done cleanly by the produced LLM. In that case, use [CorporoSano](https://github.com/Decentricity/CorporoSano) to wipe the English from the humanuploader output. This should also work for the human's chat logs.
+If the human is bilingual (English+other language), it might make sense to train each language separately so code switching could be done cleanly by the produced LLM. In that case, use [CorporoSano](https://github.com/Decentricity/CorporoSano) to wipe the English from the unggahsaya output. This should also work for the human's chat logs.
 
 # Important Note
 Running these scripts might consume a significant amount of your OpenAI API tokens, and you may need to monitor your usage to prevent unexpected costs. I am working for a version of these scripts that use an open-source model instead.
