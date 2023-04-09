@@ -1,5 +1,5 @@
 # HumanUploader
-The Human Uploader 1.0 and Unggah Saya 1.0 are Python scripts that use the OpenAI API to generate random questions related to human personality for the user to answer, and puts the results into files that can be used to train LLMs. With enough time and questions, these scripts combined with methods such as my script (Train-AllFilesInFolde)[https://github.com/Decentricity/Train-AllFilesInFolder] effectively uploads the user's mental models into an LLM.
+The Human Uploader 1.0 and Unggah Saya 1.0 are Python scripts that use the OpenAI API to generate random questions related to human personality for the user to answer, and puts the results into files that can be used to train LLMs. With enough time and questions, these scripts combined with methods such as my script [Train-AllFilesInFolde](https://github.com/Decentricity/Train-AllFilesInFolder) effectively uploads the user's mental models into an LLM.
 
 Questions can be drawn from the Myers-Briggs Personality Index or other related topics. The scripts ensure that chronologically-close questions are related to each other and that no questions are repeated. The questions and answers are logged into a series of text files named with the current date.
 
